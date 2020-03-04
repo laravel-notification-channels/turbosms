@@ -8,7 +8,7 @@
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/laravel-notification-channels/turbosms/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/turbosms/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/turbosms.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/turbosms)
 
-This package makes it easy to send notifications using [TurboSMS](https://turbosms.ua) with Laravel 5.5+ and 6.0
+This package makes it easy to send notifications using [TurboSMS](https://turbosms.ua) with Laravel 5.5+, 6.0 and 7.0
 
 ## Contents
 
