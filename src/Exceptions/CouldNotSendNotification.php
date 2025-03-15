@@ -9,8 +9,7 @@ class CouldNotSendNotification extends \Exception
     /**
      * Thrown when we're unable to communicate with turbosms.
      *
-     * @param Exception $exception
-     *
+     * @param  Exception  $exception
      * @return CouldNotSendNotification
      */
     public static function couldNotCommunicateWithEndPoint(Exception $exception): self
