@@ -71,6 +71,7 @@ class TurboSMSChannel
 
     /**
      * @return \SoapClient
+     *
      * @throws CouldNotSendNotification
      */
     protected function getClient()
@@ -85,10 +86,10 @@ class TurboSMSChannel
     /**
      * Send the given notification.
      *
-     * @param mixed $notifiable
-     *
-     * @param Notification $notification
+     * @param  mixed  $notifiable
+     * @param  Notification  $notification
      * @return void|array
+     *
      * @throws CouldNotSendNotification
      */
     public function send($notifiable, Notification $notification)
